@@ -16,15 +16,13 @@ function App() {
       
       <Router /> 
 
-      <About/>
+      {/*<About/>
       <Shop/>
       <Menu/>
       <Clients/>
       <Prices/>
-      <Footer /> 
-      <div className="login-signup-bg">
-       
-      </div>
+      <Footer />   */}
+      
       </div>
   );
 }

@@ -10,6 +10,8 @@ import Shop from '../components/Shop';
 import Menu from '../components/Menu';
 import Clients from '../components/Clients';
 import Prices from '../components/Prices';
+import { AccountBox } from '../components/accountBox';
+import Footer from '../components/Footer'
 
 
 /* screens */
@@ -19,18 +21,20 @@ const Router = () => {
 
     return (
         <BrowserRouter>
-
-        
-      
-                    <Link to='/Design-Jam-Submission/menu'>jsdbj</Link>
-                    <Route path='/'  component={Header} />
-                    <Route path='/Design-Jam-Submission/menu'  component={Menu} />
+ <Route path='/'  />
+ <Header />
+ <About/>
+      <Shop/>
+      <Menu/>
+      <Clients/>
+      <Prices/>
+      <Footer />
+                    {/* <Route path='/Design-Jam-Submission/menu'  component={Menu} />
                     <Route path='/about'exact component={About} />
                     <Route path='/shop'exact component={Shop} />
                     <Route path='/client'exact component={Clients} />
                     <Route path='/price'exact component={Prices} />
-                  
-              
+       */}
       
       
         </BrowserRouter>

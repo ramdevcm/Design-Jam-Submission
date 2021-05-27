@@ -26,7 +26,7 @@ export function SignupForm(props) {
       <Marginer direction="vertical" margin="1em" />
       <MutedLink href="#">
         Already have an account?
-        <BoldLink href="#" target="_blank" onClick={switchToSignin}>
+        <BoldLink href="#" onClick={switchToSignin}>
           Signin
         </BoldLink>
       </MutedLink>

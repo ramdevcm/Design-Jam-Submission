@@ -5,7 +5,7 @@ const Shop = () => {
         <div className='shop'>
             <div className="container">
                 <div className="shop__text">
-                    <div>
+                    <div className="ss">
                         <h1>Free Delivery with DONUT OF THE DAY Only Rs.49/-</h1>
                         <div className="shop__btn">
                             <a href="" className='btn btn-smart'>SHOP NOW</a>
